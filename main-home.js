@@ -114,7 +114,7 @@ var sortQuotes = function(){
 };
 
 var silliness = function(){
-	var grabNumber = Math.floor((Math.random()*(data.length))+1);
+	var grabNumber = Math.floor(Math.random()*(data.length));
 	var grabQuote = data[grabNumber].quote;
 	$(".queryfield").append(grabQuote);
 }
