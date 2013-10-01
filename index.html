@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link rel="stylesheet" type="text/css" href="main.css">
+  <title>Inspirational Quotes</title>
+</head>
+<body>
+
+<!-- This section is input field including authors and the original quotes. -->
+
+	<div class="inputfield">
+		<form>
+			<fieldset>
+				Author Name: <input type="text" name="author" value="" id="author-input"><br>
+				Quote: <input type="text" name="quote" value="" id="quote-input"><br>
+				<button type="button" id="add-button">Add</button>
+			</fieldset>
+		</form>
+
+	</div>
+
+<div class="display-quotes">
+
+</div>
+
+
+<!-- This section is for querying the dataset by author. -->
+
+	<div class="queryfield">
+		<form>
+			<fieldset>
+				Search by Author: <input type="text" name="author" value="" id = "search-name"><br>
+				<button type="button" name="submit" class="author-button">Submit</button>
+			</fieldset>
+		</form>
+
+		<div>
+			<button type="button" id="value-list">Sort</button>
+			<button type="button" id="random-quote">Random</button>
+		</div>
+
+	</div>
+
+<!-- This section provides a standard area for returning querried data. -->
+
+	<div class="outputfield"	
+
+	</div>
+
+</body>
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="main-home.js"></script>
+
+
+</html>
